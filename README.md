@@ -12,13 +12,16 @@ Para iniciar deve ser criada uma pasta com imagens em formato .png dos captchas 
 Arquivos do projeto:
 
 main.py: esta dividido em tres passos:
+
     Paso 1: Tratamento de imagens.
         - Haverá uma clasificação semi-automatica. Sera mostrado a imagem de uma letra, deve digitar no teclado a letra correspondente (Mais info, ProcessarImagens.py)
         - Como resultado desse passo, havera uma nova pasta na raiz do arquivo main.py, e uma pasta chamada 'base_letras' contendo uma pasta para cada letra.
         - Deve ser feita uma revisão manual para verificar as pasta de cada letra (quatidade e exatitud)
+        
     Paso 2: Treino inicial do modelo e previsão clasificatoria
         - Usando o modelo de IA, clasificara o restante das letras não clasificadas anteriormente.
         - Após o passo deve ser feita uma nova revisão manual para corrigir erros da IA
+        
     Paso 3: Treino final, salvar o modelo e o tradutor
          - Com uma base de letras maior, sera treinada a IA novamente.
 
@@ -30,4 +33,4 @@ PrevisaoClasificatoria.py contem a função que usara o modelo para o clasificar
 
 helpers.py contem uma função usada para processar imagens (arquivo externo)
 
-ResolverCaptcha.py contem a função que faz uso do modelo de IA ja plenamente treinado para resolver captchas.
+ResolverCaptcha.py contem a função que faz uso do modelo de IA ja plenamente treinado para resolver captchas
