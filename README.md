@@ -4,7 +4,7 @@
 Nesse projeto criamos, treinamos e usamos um modelo de inteligencia artificial para reconhecer letras em imagens de captchas.
 
 
-Utilidade
+### Utilidade
 A quebra de captcha pode ser util quando precisamos fazer Web Scrapping e encontramos uma trava por meio de captcha de texto. 
 
 ### Como usar:
